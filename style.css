@@ -1,0 +1,210 @@
+body{
+    width:100%;
+    margin: 0%;
+}
+
+.container {
+overflow: hidden;
+background-color:whitesmoke;
+}
+.name{
+display: flex;
+float:left;
+font-size: 18px;
+color:#f1420c;
+margin-left: 4px;
+padding-bottom:2px;
+padding-top: 15px;
+justify-content:flex-end;
+}
+.home{
+width:100%;
+height: 350px;
+background-color:black;
+
+}
+.home .hc
+{
+padding:145px;
+text-align: center;
+
+}
+.home .hc .homecontent-I{
+color:white;
+font-size: medium;
+margin-right: 643px;;
+}
+.homecontent-II{
+color:white;
+font-size: 50px;
+
+}
+
+
+
+
+.container a {
+float: right;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.container a:hover {
+background-color: red;
+color: black;
+}
+
+.container a.active {
+background-color: #f1420c;
+color: white;
+height:15px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 15px;
+
+}
+.bio{
+height:400px;
+width:36%;
+background-color:whitesmoke;
+}
+.bio img{
+display:flex;
+justify-content: end;
+justify-content: center;
+padding:50px 100px;
+margin-top:45px;
+border-radius:50%;
+
+}
+
+.desc{
+display: flex;
+float: right;
+height:400px;
+width:65%;
+background-color:whitesmoke;
+color:black;
+margin-top:-400px ;
+}
+.download{
+display: flex;
+height:40px;
+width:170px;
+justify-content: center;
+align-items: center;
+border:2px solid;
+border-color: white;
+margin-right:4px;
+background-color: #f1420c;
+border-radius: 2px;
+color:white;
+
+
+
+}
+.port{
+height: 400px;
+width:100%;
+background-color: black;
+color:white;
+
+margin-top: -21px;
+}
+.pf{
+position: relative;
+top: 10px;
+}
+.mainport{
+align-content: center;
+border-bottom: whitesmoke;
+margin-left: 525px;
+width:250px;
+
+}
+.fbox{
+background-color: white;
+color:black;
+height:200px;
+width:300px;
+text-align:center;
+border-radius: 20px;
+}
+.log1{
+background-color: orange;
+border-radius: 100%;
+width:30px;
+justify-content: center;
+margin-left: 5.5em;
+
+font-size: 25px;
+
+}
+.sbox{
+background-color: white;
+color:black;
+height:200px;
+width:300px;
+text-align:center;
+border-radius: 20px;
+}
+.log2{
+background-color: orange;
+border-radius: 100%;
+width:30px;
+justify-content: center;
+margin-left: 5.5em;
+
+font-size: 25px;
+
+}
+.tbox{
+background-color: white;
+color:black;
+height:200px;
+width:300px;
+text-align:center;
+border-radius: 20px;
+}
+.log3{
+background-color: orange;
+border-radius: 100%;
+width:30px;
+justify-content: center;
+margin-left: 5.5em;
+
+font-size: 25px;
+
+}
+.box{
+display: flex;
+justify-content: space-evenly;
+}
+.skills{
+height: 400px;
+width:100%;
+background-color: white;
+}
+.rightandleft
+{ display: flex;
+justify-content: space-evenly;
+
+}
+.right{
+width: 200px;
+}
+.html,.css, .java, .js, .ang, .english, .kananda, .hindi{
+
+height:10px;
+margin-top: 10px;
+background-color: grey;
+}
+.html1, .css1, .java1, .js1, .ang1, .english1, .kananda1, .hindi1{
+background-color: #f1420c;
+width:80%;
+height: 10px;
+}
